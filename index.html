@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Description -->
+    <meta description="InnoventX is a venture that is aimed for providing efficient solutions for different types of Software Development, IoT and Robotics-based demands.">
+
+    <!-- ICON -->
+    <link rel="icon" href="Images/favicon.ico">
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+    <!-- D3 tree -->
+    <script src="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/js/d3-mitch-tree.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree-theme-default.min.css">
+
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/90ee326ae9.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>InnoventX</title>
+
+</head>
+
+<body>
+
+    <section id="Home colored">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <a class="navbar-brand" href="">
+                <img class="Home_logo" src="Images/InnoventX_White.svg" alt="" width="24" height="30">
+                <span style="color: red;">I</span>NNOVENT<span style="color: red;">X</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+                <ul class="nav nav-pills justify-content-right">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeline">TIMELINE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <div class="container-fluid">
+
+            <div class="row Home_items">
+                <div class="wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 288 288">
+                  <linearGradient id="PSgrad_0" x1="70.711%" x2="0%" y1="70.711%" y2="0%">
+                    <stop offset="0%" stop-color="rgb(95,54,152)" stop-opacity="1" />
+                    <stop offset="100%" stop-color="rgb(247,109,138)" stop-opacity="1" />
+                  </linearGradient>
+                  <path fill="url(#PSgrad_0)">
+                  
+                    <animate  repeatCount="indefinite" attributeName="d" dur="5s"
+                    
+                    values="M37.5,186c-12.1-10.5-11.8-32.3-7.2-46.7c4.8-15,13.1-17.8,30.1-36.7C91,68.8,83.5,56.7,103.4,45
+                    c22.2-13.1,51.1-9.5,69.6-1.6c18.1,7.8,15.7,15.3,43.3,33.2c28.8,18.8,37.2,14.3,46.7,27.9c15.6,22.3,6.4,53.3,4.4,60.2
+                    c-3.3,11.2-7.1,23.9-18.5,32c-16.3,11.5-29.5,0.7-48.6,11c-16.2,8.7-12.6,19.7-28.2,33.2c-22.7,19.7-63.8,25.7-79.9,9.7
+                    c-15.2-15.1,0.3-41.7-16.6-54.9C63,186,49.7,196.7,37.5,186z;
+                    
+                    
+                    M51,171.3c-6.1-17.7-15.3-17.2-20.7-32c-8-21.9,0.7-54.6,20.7-67.1c19.5-12.3,32.8,5.5,67.7-3.4C145.2,62,145,49.9,173,43.4
+                    c12-2.8,41.4-9.6,60.2,6.6c19,16.4,16.7,47.5,16,57.7c-1.7,22.8-10.3,25.5-9.4,46.4c1,22.5,11.2,25.8,9.1,42.6
+                    c-2.2,17.6-16.3,37.5-33.5,40.8c-22,4.1-29.4-22.4-54.9-22.6c-31-0.2-40.8,39-68.3,35.7c-17.3-2-32.2-19.8-37.3-34.8
+                    C48.9,198.6,57.8,191,51,171.3z;
+                    
+                    M37.5,186c-12.1-10.5-11.8-32.3-7.2-46.7c4.8-15,13.1-17.8,30.1-36.7C91,68.8,83.5,56.7,103.4,45
+                    c22.2-13.1,51.1-9.5,69.6-1.6c18.1,7.8,15.7,15.3,43.3,33.2c28.8,18.8,37.2,14.3,46.7,27.9c15.6,22.3,6.4,53.3,4.4,60.2
+                    c-3.3,11.2-7.1,23.9-18.5,32c-16.3,11.5-29.5,0.7-48.6,11c-16.2,8.7-12.6,19.7-28.2,33.2c-22.7,19.7-63.8,25.7-79.9,9.7
+                    c-15.2-15.1,0.3-41.7-16.6-54.9C63,186,49.7,196.7,37.5,186z	"/>
+                  
+                    </path>
+                  
+                  </svg>
+                </div>
+
+                <div>
+                    <img class="Home_Robo-Img" src="Images/Home_Robo.svg" alt="Home_Robo">
+
+                    <h2 class="Home_text_h2">DO YOU WANT TO</h2>
+                    <h1 class="Home_text">LEARN</h1>
+                    <h1 class="Home_text">IMPLEMENT</h1>
+                    <h1 class="Home_text">INNOVATE</h1>
+                    <button type="button" class="btn btn-outline-danger btn-lg download-button" data-bs-toggle="tooltip" data-bs-placement="top" title="Download InnoventX App">
+                        <i class="fab fa-google-play google-play-icon"></i> 
+                        Download Now
+                    </button>
+                    <div class="portal-button-div" data-bs-toggle="tooltip" data-bs-placement="top" title="Visit our InnoventX Portal">
+                        <button type="button" class="btn btn-primary btn-lg portal-button">
+                            Go to Portal 
+                            <i class="fas fa-arrow-circle-right next-icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="About">
+        <h2 class="about-us">About Us</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <img class="carousel-img" src="Images/Team.svg" alt="First slide">
+                <div class="carousel-content">
+                    <span style="clear:both" class="carousel-text">
+                        <p  class="carousel-text">
+                            InnoventX is a robotics-based EdTech company providing a platform designed to help students to learn and 
+                            understand in a fun and practical way.
+                        </p>
+                    </span>
+                </div>                
+              </div>
+
+              <div class="carousel-item">
+                <img class="carousel-img2" src="Images/brain-idea.svg" alt="Second slide">
+                <div class="carousel-content">
+                    <span style="clear:both" class="carousel-text">
+                        <p  class="carousel-text">
+                            Most students, nowadays suffer due to a lack of 
+                            creativity and practical knowledge in their early 
+                            years of learnings. The current job market is 
+                            dominated by STEM, demand for candidates with 
+                            qualifications in technology, specifically in robotics 
+                            has seen a nearly 200 per cent growth.
+                        </p>
+                    </span>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img class="carousel-img3" src="Images/Carousel 3.svg" alt="Third slide">
+                <div class="carousel-content">
+                    <span style="clear:both" class="carousel-text">
+                        <p  class="carousel-text">
+                            Students lose opportunities, the reason being, 
+                            they are not able to develop themselves according
+                            to the technological developments happening 
+                            in the market.  
+                        </p>
+                    </span>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img class="carousel-img4" src="Images/Carousel 4.svg" alt="Forth slide">
+                <div class="carousel-content">
+                    <span style="clear:both" class="carousel-text">
+                        <p  class="carousel-text">
+                            To overcome this obstacle, we aim to provide 
+                            students with an online and offline based robotics 
+                            platform that will help them develop technical as
+                            well as soft skills.
+                        </p>
+                    </span>
+                </div>
+              </div>        
+            </div>
+
+            <div class="controls">
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev" onclick="$('#myCarousel').carousel('prev')" style="text-decoration: none;">
+                    <span><i style="font-size: 2.5rem;" class="fas fa-chevron-circle-left"></i></span>
+                    
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next" onclick="$('#myCarousel').carousel('next')" style="text-decoration: none;">
+                    <span><i style="font-size: 2.5rem;" class="fas fa-chevron-circle-right"></i></span>
+                </a>
+            </div>
+            
+          </div>
+    </section>
+
+    <section id="why-learn">
+
+        <div class="why-learn">
+            <h2 class="why-learn-heading">Why learn robotics?</h2>
+        </div>
+
+        <div class="d3-tree">
+            <iframe src="d3-tree.html" frameborder="2" style="width: 70rem; height: 70rem;"></iframe>
+        </div>
+
+    </section>
+
+    <section id="Timeline">
+
+        <div class="container timeline-container">
+
+            <h1 class="timeline-heading">OUR TIMELINE</h1>
+            <div>
+                <div>
+                    <div class="main-timeline">
+                        <div class="timeline">
+                            <div class="timeline-icon"><span class="year"><h2 class="t_text">Aug 2, 2020</h2></span></div>
+                            <div class="timeline-content">
+                                <h3 class="title title1">ROBOTECH 1.0 Task Based Training</h3>
+                                <div style="display: inline-block;" class="description">
+                                    <button type="button" class="btn btn-outline-light timeline-button">Details</button>
+                                </div>
+                                <div class="status"><p style="margin-bottom: 0;">Completed</p></div>
+
+                            </div>
+                        </div>
+                        <div class="timeline t1">
+                            <div class="timeline-icon"><span class="year"><h2 class="t_text">Jul 25, 2020</h2></span></div>
+                            <div class="timeline-content">
+                                <h3 class="title title1">ROBOTECH 1.0</h3>
+                                <div style="display: inline-block;" class="description">
+                                    <button type="button" class="btn btn-outline-light timeline-button">Details</button>
+                                </div>
+                                <div class="status"><p style="margin-bottom: 0;">Completed</p></div>
+                            </div>
+                        </div>
+                        <div class="timeline t2">
+                            <div class="timeline-icon"><span class="year"><h2 class="t_text">Jun 27, 2020</h2></span></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Techinar Phase-II</h3>
+                                <div style="display: inline-block;" class="description">
+                                    <button type="button" class="btn btn-outline-light timeline-button">Details</button>
+                                </div>
+                                <div class="status"><p style="margin-bottom: 0;">Completed</p></div>
+                                
+                            </div>
+                        </div>
+                        <div class="timeline t3">
+                            <div class="timeline-icon"><span class="year"><h2 class="t_text">Jun 25, 2020</h2></span></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Techinar Task Based Training</h3>
+                                <div style="display: inline-block;" class="description">
+                                    <button type="button" class="btn btn-outline-light timeline-button">Details</button>
+                                </div>
+                                <div class="status"><p style="margin-bottom: 0;">Completed</p></div>
+                            </div>
+                        </div>
+                        <div class="timeline t4">
+                            <div class="timeline-icon"><span class="year"><h2 class="t_text">Jun 19, 2020</h2></span></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Techinar Phase-I</h3>
+                                <div style="display: inline-block;" class="description">
+                                    <button type="button" class="btn btn-outline-light timeline-button">Details</button>
+                                </div>
+                                <div class="status"><p style="margin-bottom: 0;">Completed</p></div>
+                            </div>
+                        </div>                                             
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container" id="services">
+        
+        <div class="services" id="services">
+            <!-- <div class="container"> -->                                
+                <div class="section-title">
+                    <h4>Our Services</h4>
+                </div>                  
+               
+               <div class="row service-row">
+                  <div class="serviceDIV col-lg-6">
+                     <!-- Single Service -->
+                     <div class="single-service service1">
+                        <i class="fa fas fa-chalkboard-teacher"></i>
+                        <h3 class="single-service-title">Robotics Training in Schools</h3>
+                        <p class="single-service-content">We provide a year-long robotics training program to students in their institutes using our 
+                            unique teaching model enabling them to understand and retain the concepts for a longer duration.</p>
+                        <div class="details-btn">
+                            <button class="btn-hover color" data-bs-toggle="modal" data-bs-target="#Modal1">Details</button>
+                        </div>
+                     </div>                     
+                  </div>
+                  
+                  <div class="serviceDIV col-lg-6">
+                     <!-- Single Service -->
+                     <div class="single-service service2">
+                        <i class="fa fas fa-robot"></i>
+                        <h3 class="single-service-title">DIY Robotics Kits for school students with video lectures.</h3>
+                        <p>We provide DIY kits for robotic enthusiasts to get a hands-on robotics experience with the 
+                            help of our detailed video lectures included in the kit.</p>
+                        <div class="details-btn">
+                            <button type="button" class="btn-hover color">Details</button>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+            
+            </div>
+                        
+            <!-- Modal -->
+            <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="ModalLabel">Robotics Training in Schools</h5>
+                            <button type="button" class="btn close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="roboticClassIMG" src="Images/RoboticsClass.svg" alt="RoboticsClass">
+                            <div class="roboticClassDIV">
+                                
+                                <span class="RoboticClassText">We have designed a platform to help students to learn, implement, understand, and innovate 
+                                    in a fun and practical way. We will provide young minds with a unique learning model on robotics 
+                                    that will enhance their creative minds with technical as well as soft skills. We provide this year 
+                                    long robotics training to students in their institutes. </span>
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+    <section>
+        <h1>Bennifits</h1>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
